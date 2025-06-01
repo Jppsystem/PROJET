@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOLARITO</title>
+    <link rel="stylesheet" href="MENU.css">
+</head>
+<body>
+    <header>
+        <h1><strong>SCOLARITO</strong></h1>  
+    </header>
+    <nav>
+        <div class="table">
+            <ul>
+                <li class="MENU">
+                    <a href="MENU.html">ACCUEIL</a>
+                </li>
+                <li class="MENU1">
+                    <a href="MENU1.html">ESPACE PARENTS</a>
+                </li>
+                <li class="MENU2">
+                    <a href="MENU2.html">ESPACE TUTEURS</a>
+                </li>
+                <li class="MENU3">
+                    <a href="MENU3.html">CONTACTS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="content">
+        <section class="form-section">
+            <h2>Informations sur l'enfant</h2>
+
+            <form action="#" method="post">
+                <label for="niveau">Niveau de l'enfant: </label>
+                <select name="niveau" id="niveau">
+                    <optgroup label="Primaire">
+                        <option value="quatrième">Quatrième</option>
+                        <option value="cinquième">Cinquième</option>
+                        <option value="sixième">Sixième</option>
+                    </optgroup>
+                    <optgroup label="Secondaire">
+                        <option value="septième">Septième</option>
+                        <option value="huitième">Huitième</option>
+                        <option value="humanité1">1ère humanité</option>
+                        <option value="humanité2">2ème humanité</option>
+                        <option value="humanité3">3ème humanité</option>
+                        <option value="humanité4">Terminal</option>
+                    </optgroup>
+                </select>
+                <label for="ville">Ville: </label>
+                <input type="text" name="ville" id="ville" placeholder="Ex: Kinshasa,..." required>
+                <label>Matières: </label>
+                <div class="check">
+                    <label><input type="checkbox" name="math" value="math">Math</label>
+                    <label><input type="checkbox" name="français" value="français">Français</label>
+                    <label><input type="checkbox" name="sciences" value="sciences">Sciences</label>
+                    <label><input type="checkbox" name="comptabilité" value="comptabilité">Comptabilité</label>
+                    <label><input type="checkbox" name="latin" value="latin">Latin</label>
+                </div>
+                <a href="voir_prof.php"><button type="submit">Recherche des professeurs</button></a>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><strong>COPYRIGHT 2025 Scolarito - Tous droits réservés</strong></p>
+    </footer>
+</body>
+</html>

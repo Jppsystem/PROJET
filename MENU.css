@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Ici avec notre body nous avons mis deja la taille generale de secrits,des marges interieurs et exterieures
+automatique c)d s'adapte au navigateur, on a inséré une image de fond qu'on a decidé de ne pas repeté
+on a mis aussi la taille total de l'image sur la page web en %, on l'a fixé pour eviter de brusquer les 
+utlisateurs........... */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("IMAGE/ECOLE.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+}
+p{
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: auto;
+}
+/*  Le titre de ma page d'accueil, ici il y a le centrage du titre au milieu de notre
+bordure. la couleur du texte est blanche et on a des marges intérieures de 40px de par et d'autres.
+une petite ronde au niveau de la bordure de 10px. Et une légère ombre. J'ai ciblé avec une clase pour avoir certains éléments condamnés*/
+.profil{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.ajout{
+    color: red;
+}
+/* Ici juste les caractéristiques du titre. la taille,la couleur, la police des écrits et préciseer l'espace entre
+le titre la bordure*/
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+ /* Ici c'est la classe qui me permettra de mettre des valeurs pour rendre mes liens moins fixe. càd
+éviter les liens superposés avec la fonction gap et bien sur definir les espaces et les marges à l'intérieur.*/
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* Ici c'est l'organisation de mes liens càd enlever le surlignage automatique des liens...
+Mettre une couleur de fond, definir une rondeur pour ses liens, la police de ses liens et aussi une petite transition
+avec la couleur du background de qlqs sécondes*/
+.btn{
+    background-color: #27ae60;
+    color: #FFF;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+/* Pour faire flotter le lien avec une couleur de fond verte,
+càd lorsque j'essaye d'y accéder une petite animation s'applique*/
+.btn:hover{
+    background-color: #219150;
+}
+/*La place que va occuper en hauteur mes titres*/
+header{
+    height: 100%;
+}
+/* Ici on vise directement la taille du titre se trouvant dans le header et sa couleur*/
+header h1{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+/*Là c'est le pied de page; on retrouve le centrage du texte, la couleur de fond du pied de page,
+la hauteur du pied de page, et un espace en haut de la bordure du texte de 2px*/
+footer{
+    height: 80px;
+    text-align: center;
+    background-color: #C5C5C5;
+    padding: 30px;
+    border-top: 2px solid #AAA;
+}
+/* Couleur de l'élément qui va nous permettre de naviguer sur notre site et sa largeur de 100%*/
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+/* Ici on applique un type de liste non numeroté afin de ne pas avoir des menus sur le nav bizarre*/
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+/* Ici c'est modifier nos liens créer en tant que menus, on definit les marges intérieures, changer le type a
+avec display pour faciliter l'ajout de certaines fonctionnalités, la couleur du texte et sa taille et aussi
+l'utilisation de la fonction uppercase pour definir nos élémenets en majuscules*/
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFF;
+}
+.table{
+    margin: 0 auto;
+    display: table;
+}
+/* Là nous avons essayé d'animer nos menus avec une bordure en haut, une couleur  et y mettre 
+une couleur de fond avec une opacité pour réduire la difference de couleur et hover pour que nous puissions 
+le faire flotter*/
+.MENU:hover{
+    border-top: 5px solid #4C8;
+    background-color: rgba(64,200,130,0.15);
+}
+.MENU1:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241,211,79,0.15);
+}
+.MENU2:hover{
+    border-top: 5px solid #0070BB;
+    background-color: rgba(000,112,192,0.15);
+}
+.MENU3:hover{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228,77,38,0.15);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+section{
+    width: 100%;
+    padding-bottom: 10px;
+    min-height: 300px;
+    margin-bottom: 10px;
+}
+.orange h1{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.orange{
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+}
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+form label{
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+form input{
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #27ae60;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #219150;
+}
+.contact{
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+img{
+    max-width: 150px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.contact h1{
+    color: #333;
+}
+.contact p{
+    margin-bottom: 15px;
+}
+/* Conteneur génerale avec du padding et une couleur de fond*/
+.content{
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+/*Section du formulaire: fond blanc; les arrondis, ombres légère, centrée*/
+.form-section{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;/* Centre de la section*/
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);/*Ombre légère*/
+}
+/*Titre de la section du formulaire*/
+.form-section h2{
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+/* Style des champs*/
+.form-section label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+/* Champs texte et listes déroulantes: pleine largeur, padding,
+bordure arrondi*/
+.form-section input[type="text"],.form-section select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+/*Effet sur la case à cocher*/
+.check{
+    margin-top: 10px;
+}
+/* EMBELISSEMANT des cases à cocher : aligner horizontalement*/
+.check label{
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+/* Bouton d'envoi : couleur bleue; les arrondis, sans bordure*/
+.form-section button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Bouton de survol sur la recherche des professeurs*/
+.form-section button:hover{
+    background-color: #2980b9;
+}
+@media screen and (max-width: 780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}

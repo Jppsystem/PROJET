@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOLARITO</title>
+    <link rel="stylesheet" href="MENU.css">
+</head>
+<body>
+    <header>
+        <h1><strong>SCOLARITO</strong></h1>  
+    </header>
+    <nav>
+        <div class="table">
+            <ul>
+                <li class="MENU">
+                    <a href="MENU.html">ACCUEIL</a>
+                </li>
+                <li class="MENU1">
+                    <a href="MENU1.html">ESPACE PARENTS</a>
+                </li>
+                <li class="MENU2">
+                    <a href="MENU2.html">ESPACE TUTEURS</a>
+                </li>
+                <li class="MENU3">
+                    <a href="MENU3.html">CONTACTS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="orange">
+            <h1>Bienvenue sur l'espace Tuteur</h1>
+            <p>Inscrivez vous en tant que Tuteur pour commencer à aider les élèves !</p>
+            <form action="ajout_prof.php" method="post">
+                <label for="nom">NOM :</label>
+                <input type="text" name="nom" id="nom" placeholder="Ex:votre nom et postnom..." required><br><br>
+                <label for="matiere">Matière :</label>
+                <input type="text" id="matiere" name="matiere" placeholder="Chimie,Mathématiques,Francais,physique,..." required> <br><br>
+                <label for="disponibilite">Disponibilité :</label>
+                <input type="text" id="disponibilite" name="disponibilite" placeholder="Je suis tuteur résidant à nom de votre ville, je suis de quel niveau primaire;secondaire " required> <br><br>
+                <button type="submit">S'inscrire</button>        
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><strong>COPYRIGHT 2025 Scolarito - Tous droits réservés</strong></p>
+    </footer>
+</body>
+</html>
