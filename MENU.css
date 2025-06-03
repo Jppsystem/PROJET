@@ -29,7 +29,7 @@ p{
 }
 
 .container {
-  background-color: #fff;
+  background-color: yellow;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -47,7 +47,7 @@ une petite ronde au niveau de la bordure de 10px. Et une légère ombre. J'ai ci
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 .ajout{
-    color: red;
+    color: blue;
 }
 /* Ici juste les caractéristiques du titre. la taille,la couleur, la police des écrits et préciseer l'espace entre
 le titre la bordure*/
@@ -184,6 +184,13 @@ form label{
     font-weight: bold;
 }
 form input{
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form textarea{
     width: 100%;
     padding: 20px;
     margin-top: 5px;
