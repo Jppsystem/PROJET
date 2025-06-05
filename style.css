@@ -45,6 +45,7 @@ une petite ronde au niveau de la bordure de 10px. Et une légère ombre. J'ai ci
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
 }
 .ajout{
     color: blue;
@@ -101,6 +102,7 @@ footer{
     background-color: #C5C5C5;
     padding: 30px;
     border-top: 2px solid #AAA;
+    margin-top: 20px;
 }
 /* Couleur de l'élément qui va nous permettre de naviguer sur notre site et sa largeur de 100%*/
 nav{
@@ -218,6 +220,10 @@ form button:hover{
     border-radius: 8px;
     box-shadow: 0 0 10px #ccc;
 }
+.photo a{
+    text-decoration: none;
+    color: #4C8;
+}
 img{
     max-width: 150px;
     border-radius: 100%;
@@ -234,6 +240,7 @@ img{
 .content{
     padding: 20px;
     background-color: #f2f2f2;
+    margin-top: 20px;
 }
 /*Section du formulaire: fond blanc; les arrondis, ombres légère, centrée*/
 .form-section{

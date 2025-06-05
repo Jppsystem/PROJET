@@ -7,13 +7,14 @@ if ($conn->connect_error) {
 
 // Récupérer les données
 $nom = $_POST['nom'];
+$email=$_POST['email'];
 $matiere = $_POST['matiere'];
 $ville = $_POST['ville'];
 $description = $_POST['description'];
 
 // Préparer et exécuter la requête
 $sql = "INSERT INTO professeurs (nom, email, matiere, ville, tarif, description)
-        VALUES ('$nom', '$matiere', '$ville','$description')";
+        VALUES ('$nom','$email', '$matiere', '$ville','$description')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Inscription réussie !";
