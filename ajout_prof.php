@@ -13,7 +13,7 @@ $ville = $_POST['ville'];
 $description = $_POST['description'];
 
 // Préparer et exécuter la requête
-$sql = "INSERT INTO professeurs (nom, email, matiere, ville, tarif, description)
+$sql = "INSERT INTO professeurs (nom, email, matiere, ville, description)
         VALUES ('$nom','$email', '$matiere', '$ville','$description')";
 
 if ($conn->query($sql) === TRUE) {

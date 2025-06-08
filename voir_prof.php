@@ -46,5 +46,10 @@ $result = $conn->query($sql);
 
     $conn->close();
     ?>
+    <style>
+        body{
+            background-color: blue;
+        }
+    </style>
 </body>
 </html>
