@@ -10,9 +10,14 @@
     <header>
         <h1 class="Titre">KIDEMY</h1>  
     </header>
+    <div class="burger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
     <nav>
         <div class="table">
-            <ul>
+            <ul class="nav-links" id="navlinks">
                 <li class="MENU">
                     <a href="index.html">ACCUEIL</a>
                 </li>
@@ -66,5 +71,11 @@
     <footer>
         <p><strong>COPYRIGHT 2025 Scolarito - Tous droits réservés</strong></p>
     </footer>
+    <script>
+        function toggleMenu(){
+            const nav=document.getElementById("navlinks");
+            nav.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
