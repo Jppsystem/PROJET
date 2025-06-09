@@ -23,7 +23,7 @@ $result = $conn->query($sql);
             margin: 15px;
             border-radius: 8px;
             width: 400px;
-            color: white;
+            background: white;
         }
     </style>
 </head>
