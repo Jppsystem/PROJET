@@ -48,7 +48,10 @@ $result = $conn->query($sql);
     ?>
     <style>
         body{
-            background-color: blue;
+            background-image: url(IMAGE/REUSSITE.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
         }
     </style>
 </body>
