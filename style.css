@@ -318,16 +318,4 @@ bordure arrondi*/
     body{
         font-size: 16px;
     }
-    .nav-links{
-        display: none;
-        flex-direction: column;
-        background: #333;
-        width: 100%;
-    }
-    .nav-links.active{
-        display: flex;
-    }
-    .burger{
-        display: flex;
-    }
 }
