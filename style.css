@@ -290,26 +290,6 @@ bordure arrondi*/
     border-radius: 5px;
     cursor: pointer;
 }
-.nav-links{
-    display: flex;
-    list-style: none;
-}
-.nav-links li a{
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-}
-.burger{
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-.line{
-    width: 25px;
-    height: 3px;
-    background: white;
-    margin: 4px 0;
-}
 /* Bouton de survol sur la recherche des professeurs*/
 .form-section button:hover{
     background-color: #2980b9;
