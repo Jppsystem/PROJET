@@ -219,6 +219,7 @@ form button:hover{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px #ccc;
+    margin-top: 40px;
 }
 .photo a{
     text-decoration: none;
@@ -295,7 +296,96 @@ bordure arrondi*/
     background-color: #2980b9;
 }
 @media screen and (max-width: 768px){
-    body{
-        font-size: 16px;
+    p{
+    margin-bottom: 10px;
+    text-align: justify;
     }
+    .container {
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 450px;
+    margin: auto;
+    }
+    .profil{
+        text-align: center;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin-top: 10px;
+    }
+    .ajout{
+    color: black;
+    }
+    .buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    }
+    .btn{
+    background-color: #27ae60;
+    color: #FFF;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    }
+    .btn:hover{
+    background-color: #219150;
+    }
+    header{
+    height: 100%;
+    }
+    header h1{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    }
+footer{
+    height: 40px;
+    text-align: center;
+    background-color: #C5C5C5;
+    padding: 15px;
+    border-top: 1px solid #AAA;
+    margin-top: 10px;
+    }
+    h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    }
+    nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px ;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #FFF;
+    }
+    .MENU:hover{
+    border-top: 1px solid #4C8;
+    background-color: rgba(64,200,130,0.15);
+    }
+    .MENU1:hover{
+    border-top: 1px solid #f1dc4f;
+    background-color: rgba(241,211,79,0.15);
+    }
+    .MENU2:hover{
+    border-top: 1px solid #0070BB;
+    background-color: rgba(000,112,192,0.15);
+    }
+    .MENU3:hover{
+    border-top: 1px solid #e44d26;
+    background-color: rgba(228,77,38,0.15);
+    }
+    nav li:hover a{
+    padding: 7px 15px 10px 15px;
+    }
+
 }
