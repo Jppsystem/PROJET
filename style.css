@@ -398,5 +398,11 @@ footer{
     font-size: 65%;
     color: #FFF;
     }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
 }
 
