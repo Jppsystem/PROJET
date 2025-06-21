@@ -390,6 +390,10 @@ footer{
 
 }
 @media screen and (max-width: 440px){
+    p{
+    margin-bottom: 5px;
+    text-align: justify;
+    }
     nav a{
     text-decoration: none;
     display: inline-block;
