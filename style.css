@@ -389,7 +389,7 @@ footer{
     }
 
 }
-@media screen and (max-width: 440px){
+@media screen and (max-width: 414px){
     p{
     margin-bottom: 5px;
     text-align: justify;
