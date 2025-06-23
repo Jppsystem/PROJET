@@ -27,7 +27,3 @@ Projet développé par *Polepole Tshomba Jean Petit*
 ## Statut du projet
 
 ✅ Terminé
-
----
-
-> Merci d'utiliser SCOLARITO pour améliorer l’éducation à domicile !
