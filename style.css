@@ -56,7 +56,6 @@ h1{
     font-size: 40px;
     text-align: center;
     font-weight: normal;
-    color: #2c3e50;
     margin-bottom: 10px;
 }
  /* Ici c'est la classe qui me permettra de mettre des valeurs pour rendre mes liens moins fixe. càd
@@ -114,16 +113,12 @@ nav li{
     list-style-type: none;
     float: left;
 }
-nav ul{
-    margin: 0px;
-    padding: 0px;
-}
 /* Ici c'est modifier nos liens créer en tant que menus, on definit les marges intérieures, changer le type a
 avec display pour faciliter l'ajout de certaines fonctionnalités, la couleur du texte et sa taille et aussi
 l'utilisation de la fonction uppercase pour definir nos élémenets en majuscules*/
 nav a{
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     padding: 20px 30px;
     text-transform: uppercase;
     font-size: 20px;
@@ -295,118 +290,109 @@ bordure arrondi*/
 .form-section button:hover{
     background-color: #2980b9;
 }
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+.burger{
+    flex-direction: column;
+    display: none;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 4px 0;
+}
+
 @media screen and (max-width: 768px){
-    p{
-    margin-bottom: 10px;
-    text-align: justify;
-    }
     .container {
     background-color: yellow;
-    padding: 15px;
-    border-radius: 4px;
+    padding: 30px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 450px;
+    max-width: 600px;
     margin: auto;
     }
+    .container h1{
+        font-size: 30px;
+    }
     .profil{
-        text-align: center;
-        background-color: #f2f2f2;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        margin-top: 10px;
-    }
-    .ajout{
-    color: black;
-    }
-    .buttons{
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    }
-    .btn{
-    background-color: #27ae60;
-    color: #FFF;
-    padding: 6px 12px;
-    text-decoration: none;
-    border-radius: 3px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    }
-    .btn:hover{
-    background-color: #219150;
-    }
-    header{
-    height: 100%;
-    }
-    header h1{
-    font-size: 280%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: red;
-    }
-footer{
-    height: 40px;
     text-align: center;
-    background-color: #C5C5C5;
-    padding: 15px;
-    border-top: 1px solid #AAA;
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     margin-top: 10px;
-    }
-    h1{
-    font-size: 20px;
-    text-align: center;
-    font-weight: normal;
-    color: #2c3e50;
-    margin-bottom: 5px;
     }
     nav a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 15px ;
-    text-transform: uppercase;
-    font-size: 65%;
-    color: #FFF;
+        font-size: 75%;
     }
-    .MENU:hover{
-    border-top: 1px solid #4C8;
-    background-color: rgba(64,200,130,0.15);
+    .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #333;
+    width: 100%;
     }
-    .MENU1:hover{
-    border-top: 1px solid #f1dc4f;
-    background-color: rgba(241,211,79,0.15);
+    .nav-links.active {
+    display: flex;
     }
-    .MENU2:hover{
-    border-top: 1px solid #0070BB;
-    background-color: rgba(000,112,192,0.15);
-    }
-    .MENU3:hover{
-    border-top: 1px solid #e44d26;
-    background-color: rgba(228,77,38,0.15);
-    }
-    nav li:hover a{
-    padding: 7px 15px 10px 15px;
+    .burger {
+    display: flex;
     }
 
 }
-@media screen and (max-width: 360px){
-    p{
-    margin-bottom: 5px;
-    text-align: justify;
+@media screen and (max-width: 425px){
+    header h1{
+        font-size: 50px;
+    }
+    .container{
+        max-width: 800px;
+    }
+    .container h1{
+        font-size: 20px;
+    }
+    .profil{
+        padding: 15px;
+        margin-top: 5px;
     }
     nav a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 15px ;
-    text-transform: uppercase;
-    font-size: 65%;
-    color: #FFF;
+        font-size: 65%;
+        padding: 12px 16px;
     }
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+    .MENU:hover{
+    border-top: 1px solid #4C8;
     }
-    
+    .MENU1:hover{
+    border-top: 1px solid #f1dc4f;
+    }
+    .MENU2:hover{
+    border-top: 1px solid #0070BB;
+    }
+    .MENU3:hover{
+    border-top: 1px solid #e44d26;
+    }
+    .btn{
+        padding: 6px 12px;
+    }
+    .check{
+        font-size: 0.5em;
+    }
+    .check label{
+        font-weight: bold;
+    }
+    footer{
+        font-size: 10px;
+    }
+
 }
+
+
 
