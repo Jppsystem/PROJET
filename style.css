@@ -292,13 +292,12 @@ bordure arrondi*/
 }
 .nav-links {
     display: flex;
-    list-style: none;
 }
-
 .nav-links li a {
     color: white;
     text-decoration: none;
 }
+
 .burger{
     flex-direction: column;
     display: none;
@@ -311,6 +310,7 @@ bordure arrondi*/
     background: white;
     margin: 4px 0;
 }
+
 
 @media screen and (max-width: 768px){
     .container {
