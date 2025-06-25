@@ -382,14 +382,8 @@ bordure arrondi*/
     .btn{
         padding: 6px 12px;
     }
-    .check{
-        font-size: 0.5em;
-    }
-    .check label{
-        font-weight: bold;
-    }
     footer{
-        font-size: 10px;
+        font-size: 20px;
     }
 
 }
