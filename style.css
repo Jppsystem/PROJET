@@ -237,6 +237,7 @@ img{
     padding: 20px;
     background-color: #f2f2f2;
     margin-top: 20px;
+    border-radius: 10px;
 }
 /*Section du formulaire: fond blanc; les arrondis, ombres légère, centrée*/
 .form-section{
@@ -332,6 +333,9 @@ bordure arrondi*/
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     margin-top: 10px;
     }
+    .profil p{
+        font-size: 14px;
+    }
     nav a{
         font-size: 75%;
     }
@@ -363,6 +367,12 @@ bordure arrondi*/
         padding: 15px;
         margin-top: 5px;
     }
+    .profil p{
+        font-size: 10px;
+    }
+    nav{
+        width: 110%;
+    }
     nav a{
         font-size: 65%;
         padding: 12px 16px;
@@ -381,9 +391,30 @@ bordure arrondi*/
     }
     .btn{
         padding: 6px 12px;
+        font-size: 10px;
+    }
+    .content{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .form-section{
+        max-width: 250px;
+    }
+    .form-section h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .check{
+        font-size: 60%;
+    }
+    .orange h1{
+        font-size: 1.7em;
+    }
+    .orange p{
+        font-size: 1em;
     }
     footer{
-        font-size: 20px;
+        font-size: 10px;
     }
 
 }
