@@ -105,8 +105,8 @@ footer{
 }
 /* Couleur de l'élément qui va nous permettre de naviguer sur notre site et sa largeur de 100%*/
 nav{
-    width: 100%;
     background-color: #424558;
+    width: 100%;
 }
 /* Ici on applique un type de liste non numeroté afin de ne pas avoir des menus sur le nav bizarre*/
 nav li{
@@ -370,24 +370,21 @@ bordure arrondi*/
     .profil p{
         font-size: 10px;
     }
-    nav{
-        width: 110%;
-    }
     nav a{
         font-size: 65%;
         padding: 12px 16px;
     }
     .MENU:hover{
-    border-top: 1px solid #4C8;
+    border-top: 3px solid #4C8;
     }
     .MENU1:hover{
-    border-top: 1px solid #f1dc4f;
+    border-top: 3px solid #f1dc4f;
     }
     .MENU2:hover{
-    border-top: 1px solid #0070BB;
+    border-top: 3px solid #0070BB;
     }
     .MENU3:hover{
-    border-top: 1px solid #e44d26;
+    border-top: 3px solid #e44d26;
     }
     .btn{
         padding: 6px 12px;
