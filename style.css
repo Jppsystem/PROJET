@@ -371,7 +371,7 @@ bordure arrondi*/
         font-size: 10px;
     }
     nav a{
-        font-size: 65%;
+        font-size: 55%;
         padding: 12px 16px;
     }
     .MENU:hover{
@@ -409,6 +409,12 @@ bordure arrondi*/
     }
     .orange p{
         font-size: 1em;
+    }
+    .contact{
+        max-width: 300px;
+    }
+    .contact h1{
+        font-size: 20px;
     }
     footer{
         font-size: 10px;
