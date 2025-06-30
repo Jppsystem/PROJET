@@ -291,28 +291,6 @@ bordure arrondi*/
 .form-section button:hover{
     background-color: #2980b9;
 }
-.nav-links {
-    display: flex;
-    list-style: none;
-}
-
-.nav-links li a {
-    color: white;
-    text-decoration: none;
-}
-.burger{
-    flex-direction: column;
-    display: none;
-    cursor: pointer;
-}
-
-.line {
-    width: 25px;
-    height: 3px;
-    background: white;
-    margin: 4px 0;
-}
-
 @media screen and (max-width: 768px){
     .container {
     background-color: yellow;
@@ -336,63 +314,96 @@ bordure arrondi*/
     nav a{
         font-size: 75%;
     }
-    .nav-links {
-    display: none;
-    flex-direction: column;
-    background: #333;
-    }
-    .nav-links.active {
-    display: flex;
-    }
-    .burger {
-    display: flex;
-    }
-
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 360px){
     header h1{
         font-size: 50px;
     }
-    .container{
-        max-width: 800px;
+    nav a{
+        font-size: 10px;
+        padding: 10px;
     }
-    .container h1{
-        font-size: 20px;
+    .container{
+        max-width: 500px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 15px;
     }
     .profil{
-        padding: 15px;
-        margin-top: 5px;
-    }
-    nav a{
-        font-size: 65%;
-        padding: 12px 16px;
-    }
-    .MENU:hover{
-    border-top: 1px solid #4C8;
-    }
-    .MENU1:hover{
-    border-top: 1px solid #f1dc4f;
-    }
-    .MENU2:hover{
-    border-top: 1px solid #0070BB;
-    }
-    .MENU3:hover{
-    border-top: 1px solid #e44d26;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+        font-size: 15px;
     }
     .btn{
-        padding: 6px 12px;
-    }
-    .check{
-        font-size: 0.5em;
-    }
-    .check label{
-        font-weight: bold;
+        padding: 15px 6px;
+        font-size: 15px;
     }
     footer{
         font-size: 10px;
+        margin: 20px;
+        padding: 20px;
+    }
+    .content{
+        margin: 20px;
+        border-radius: 6px;
+    }
+    .MENU:hover{
+    border-top: 2px solid #4C8;
+    background-color: rgba(64,200,130,0.15);
+    }
+    .MENU1:hover{
+    border-top: 2px solid #f1dc4f;
+    background-color: rgba(241,211,79,0.15);
+    }
+    .MENU2:hover{
+    border-top: 2px solid #0070BB;
+    background-color: rgba(000,112,192,0.15);
+    }
+    .MENU3:hover{
+    border-top: 2px solid #e44d26;
+    background-color: rgba(228,77,38,0.15);
+    }
+    .form-section h2{
+        font-size: 20px;
+    }
+    .form-section label{
+        font-size: 15px;
+    }
+    .orange h1{
+        font-size: 25px;
+    }
+    .orange label,p{
+        font-size: 15px;
+    }
+    .contact{
+        max-width: 300px;
+    }
+    .photo h1{
+        font-size: 40px;
+    }
+    .photo p{
+        font-size: 15px;
     }
 
+
 }
+@media screen and (max-width: 375px){
 
+}
+@media screen and (max-width: 390px){
 
+}
+@media screen and (max-width: 414px){
+
+}
+@media screen and (max-width: 430px){
+
+}
+@media screen and (max-width: 820px){
+
+}
+@media screen and (max-width: 1024px){
+
+}
 
