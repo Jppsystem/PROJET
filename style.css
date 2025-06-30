@@ -389,12 +389,225 @@ bordure arrondi*/
 
 }
 @media screen and (max-width: 375px){
+    header h1{
+        font-size: 50px;
+    }
+    nav a{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .container{
+        max-width: 500px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .profil{
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .btn{
+        padding: 15px 6px;
+        font-size: 15px;
+    }
+    footer{
+        font-size: 10px;
+        margin: 20px;
+        padding: 20px;
+    }
+    .content{
+        margin: 20px;
+        border-radius: 6px;
+    }
+    .MENU:hover{
+    border-top: 2px solid #4C8;
+    background-color: rgba(64,200,130,0.15);
+    }
+    .MENU1:hover{
+    border-top: 2px solid #f1dc4f;
+    background-color: rgba(241,211,79,0.15);
+    }
+    .MENU2:hover{
+    border-top: 2px solid #0070BB;
+    background-color: rgba(000,112,192,0.15);
+    }
+    .MENU3:hover{
+    border-top: 2px solid #e44d26;
+    background-color: rgba(228,77,38,0.15);
+    }
+    .form-section h2{
+        font-size: 20px;
+    }
+    .form-section label{
+        font-size: 15px;
+    }
+    .orange h1{
+        font-size: 25px;
+    }
+    .orange label,p{
+        font-size: 15px;
+    }
+    .contact{
+        max-width: 300px;
+    }
+    .photo h1{
+        font-size: 40px;
+    }
+    .photo p{
+        font-size: 15px;
+    }
+
 
 }
 @media screen and (max-width: 390px){
+    header h1{
+        font-size: 50px;
+    }
+    nav a{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .container{
+        max-width: 500px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .profil{
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .btn{
+        padding: 15px 6px;
+        font-size: 15px;
+    }
+    footer{
+        font-size: 10px;
+        margin: 20px;
+        padding: 20px;
+    }
+    .content{
+        margin: 20px;
+        border-radius: 6px;
+    }
+    .MENU:hover{
+    border-top: 2px solid #4C8;
+    background-color: rgba(64,200,130,0.15);
+    }
+    .MENU1:hover{
+    border-top: 2px solid #f1dc4f;
+    background-color: rgba(241,211,79,0.15);
+    }
+    .MENU2:hover{
+    border-top: 2px solid #0070BB;
+    background-color: rgba(000,112,192,0.15);
+    }
+    .MENU3:hover{
+    border-top: 2px solid #e44d26;
+    background-color: rgba(228,77,38,0.15);
+    }
+    .form-section h2{
+        font-size: 20px;
+    }
+    .form-section label{
+        font-size: 15px;
+    }
+    .orange h1{
+        font-size: 25px;
+    }
+    .orange label,p{
+        font-size: 15px;
+    }
+    .contact{
+        max-width: 300px;
+    }
+    .photo h1{
+        font-size: 40px;
+    }
+    .photo p{
+        font-size: 15px;
+    }
+
 
 }
 @media screen and (max-width: 414px){
+    header h1{
+        font-size: 50px;
+    }
+    nav a{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .container{
+        max-width: 500px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .container h1{
+        font-size: 20px;
+    }
+    .profil{
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+        font-size: 15px;
+    }
+    .btn{
+        padding: 15px 6px;
+        font-size: 15px;
+    }
+    footer{
+        font-size: 10px;
+        margin: 20px;
+        padding: 20px;
+    }
+    .content{
+        margin: 20px;
+        border-radius: 6px;
+    }
+    .MENU:hover{
+    border-top: 2px solid #4C8;
+    background-color: rgba(64,200,130,0.15);
+    }
+    .MENU1:hover{
+    border-top: 2px solid #f1dc4f;
+    background-color: rgba(241,211,79,0.15);
+    }
+    .MENU2:hover{
+    border-top: 2px solid #0070BB;
+    background-color: rgba(000,112,192,0.15);
+    }
+    .MENU3:hover{
+    border-top: 2px solid #e44d26;
+    background-color: rgba(228,77,38,0.15);
+    }
+    .form-section h2{
+        font-size: 20px;
+    }
+    .form-section label{
+        font-size: 15px;
+    }
+    .orange h1{
+        font-size: 25px;
+    }
+    .orange label,p{
+        font-size: 15px;
+    }
+    .contact{
+        max-width: 300px;
+    }
+    .photo h1{
+        font-size: 40px;
+    }
+    .photo p{
+        font-size: 15px;
+    }
+
 
 }
 @media screen and (max-width: 430px){
