@@ -9,8 +9,7 @@ Permettre aux parents de trouver facilement et rapidement des professeurs qualif
 2. Technologies utilisées
 
 - HTML  
-- CSS  
-- JavaScript  
+- CSS   
 - PHP
 
 3. Fonctionnalités principales
